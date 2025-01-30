@@ -1,0 +1,6 @@
+services:
+  cache_context.custom_category:
+    class: 'Drupal\cache_assignment\Cache\Context\CategoryCacheContext'
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: cache.context }

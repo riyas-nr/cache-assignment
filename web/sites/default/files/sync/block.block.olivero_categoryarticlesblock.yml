@@ -1,0 +1,20 @@
+uuid: f33e543d-e74d-43d1-bb47-c0eb97625dba
+langcode: en
+status: true
+dependencies:
+  module:
+    - cache_assignment
+  theme:
+    - olivero
+id: olivero_categoryarticlesblock
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: cache_category_articles_block
+settings:
+  id: cache_category_articles_block
+  label: 'Category Articles Block'
+  label_display: visible
+  provider: cache_assignment
+visibility: {  }

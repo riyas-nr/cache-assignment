@@ -1,0 +1,20 @@
+uuid: 723aa9fa-48fe-4f48-b0bb-52233e93bd8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - cache_assignment
+  theme:
+    - olivero
+id: olivero_currentuserblock
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: cache_user_block
+settings:
+  id: cache_user_block
+  label: 'Current User Block'
+  label_display: visible
+  provider: cache_assignment
+visibility: {  }

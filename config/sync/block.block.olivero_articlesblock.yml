@@ -1,0 +1,20 @@
+uuid: 4a1f3145-1e4d-46a3-9a34-dc268455427c
+langcode: en
+status: true
+dependencies:
+  module:
+    - cache_assignment
+  theme:
+    - olivero
+id: olivero_articlesblock
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: cache_articles_block
+settings:
+  id: cache_articles_block
+  label: 'Articles Block'
+  label_display: visible
+  provider: cache_assignment
+visibility: {  }

@@ -1,0 +1,5 @@
+name: 'Cache Assignment'
+type: module
+description: 'Provides custom functionality for Cache Assignment.'
+core_version_requirement: ^11
+package: Custom

@@ -1,0 +1,28 @@
+# Ignore Drupal core
+/core/
+
+# Ignore vendor directory (Composer dependencies)
+/vendor/
+
+# Ignore sensitive files
+/sites/*/settings.php
+/sites/*/settings.local.php
+/sites/*/services.yml
+
+# Ignore generated files
+/sites/default/files/
+/sites/default/private/
+
+# Ignore environment-specific files
+/.env
+/.idea/
+/.vscode/
+
+# Ignore Composer files
+/composer.lock
+/composer.phar
+
+# Ignore other unnecessary files
+/node_modules/
+/web.config
+/robots.txt
