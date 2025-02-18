@@ -67,6 +67,8 @@ class CacheCategoryArticlesBlock extends BlockBase implements ContainerFactoryPl
     // Get the current user ID safely
     $current_user_id = \Drupal::currentUser()->id();
 
+    $category_id = 0;
+
      // Load the user entity with access check
     $user = $this->entityTypeManager->getStorage('user')
     ->load($current_user_id);
